@@ -67,3 +67,15 @@ for p in permutations('АКОСТ'):
     if w[3] != 'С' and 'ТА' not in w: 
         a.append(w) 
 print(len(a))
+
+'''for n in range (1000, 10000):
+    s = str(n)
+    a, b, c, d = map(int, sorted(s)) I
+    x, y = a + d, b * c
+    if x < y:
+        r = int (f'{x}{y}') # str(x) + str(y)
+    else:
+        r = int (f'{y}{x} ') # str(y) + str(x)
+    if r > 85 and len(s) == len(set(s)):
+        print(n, r)
+        break'''
