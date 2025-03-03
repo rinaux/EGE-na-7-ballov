@@ -1,6 +1,0 @@
-for n in range(1, 1000): 
-    s = bin(n)[2:] 
-    ПРЕОБРАЗОВАНИЯ СТРОКИ s 
-    r = int(n, 2) 
-    if УСЛОВИЕ НА n ИЛИ r: 
-        print(n, r)
