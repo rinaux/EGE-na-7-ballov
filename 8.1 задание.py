@@ -1,4 +1,4 @@
-from itertools import product
+'''from itertools import product'''
 '''i = 0
 k = 0
 a = []
@@ -35,6 +35,7 @@ for p in product('АИПРТ', repeat=5):
     w = ''.join(p)
     a.append(w)
 print(a.index('АТИПА')+1)'''
+
 '''i = 0
 k = 0
 a = []
@@ -47,7 +48,8 @@ for p in product('0123456789', repeat = 5):
         a.append(w)
 print(k)'''
 '''print(a.index('ДОВОД')+1)'''
-a = []
+
+'''a = []
 for p in product('КОМПАС', repeat = 6):
     w = ''.join(p)
     if w[-1] not in 'ИЕОА' and w[0] not in 'ИЕОА':
@@ -56,4 +58,12 @@ for p in product('КОМПАС', repeat = 6):
         if 'БАБ' not in t:
             a.append(w)
 print(a)
+print(len(a))'''
+
+from itertools import permutations 
+a = [] 
+for p in permutations('АКОСТ'): 
+    w = ''.join(p) 
+    if w[3] != 'С' and 'ТА' not in w: 
+        a.append(w) 
 print(len(a))
