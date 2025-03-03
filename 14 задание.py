@@ -49,6 +49,17 @@ for n in range(b):
     if s % 115 == 0：
         print (x, s // 115)'''
 
+'''def q(n):
+    s = ''
+    while n > 0:
+        s = str(n % 4) + s
+        n //= 4
+    return s
+for n in range(200, 0, -1):
+    s = q(n)
+    if s.endswith('123'):
+        print(n, end='')'''
+  
 for x in range (1, 2001) :
     n = 4**120 - 26 * x
     k = 0
